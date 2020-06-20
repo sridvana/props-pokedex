@@ -1,7 +1,10 @@
 .pokedex {
-  margin: 48px;
+  margin: 50px;
+  /* max-width: 1440px; */
 }
 
 .pokedex-cards {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

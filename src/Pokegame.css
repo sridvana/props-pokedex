@@ -1,0 +1,25 @@
+.pokemon-pokedex {
+  display: flex;
+  background-color: #dbdbdb;
+  justify-content: center;
+}
+
+.pokemon-pokedex h1 {
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+.pokedex-experience {
+  text-align: center;
+  font-size: 24px;
+  color: blue;
+  padding: 20px;
+}
+
+.pokedex-winner {
+  color: coral;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
