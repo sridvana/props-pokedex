@@ -1,0 +1,8 @@
+.pokecard {
+  width: 250px;
+  border: 2px solid cyan;
+}
+
+.pokecard h3 {
+  color: red;
+}

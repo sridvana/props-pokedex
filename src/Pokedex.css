@@ -1,0 +1,7 @@
+.pokedex {
+  margin: 48px;
+}
+
+.pokedex-cards {
+  display: flex;
+}
