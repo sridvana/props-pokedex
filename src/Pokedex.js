@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Pokecard from "./Pokecard";
 import Pokegame from "./Pokegame";
-import './Pokedex.css';
+import "./Pokedex.css";
 
 class Pokedex extends Component {
-
   render() {
     console.log(this.props.pokemon);
     const PokeCardList = this.props.pokemon.map((p) => {
@@ -27,7 +26,7 @@ class Pokedex extends Component {
         </div>
         <div className="pokedex-winner">
           {/* {this.props.isWinner ? "The Winner" : "Not the Winner"} */}
-          {this.props.isWinner && "The Winner"}
+          {this.props.isWinner && "Congratulations you are the Winner!!!"}
         </div>
         <div className="pokedex-cards">{PokeCardList}</div>
       </div>
